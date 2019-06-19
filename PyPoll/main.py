@@ -40,7 +40,7 @@ print(f"Total Votes: {total_votes}")
 print("---------------------------")
 for person, vote_count in candidate_votes.items():
     print(f"{person}: {candidate_percentages[person]} ({vote_count})")
-print(dashbreak)
+print("---------------------------")
 print(f"Winner: {winner}")
 print("------------------------")
 
